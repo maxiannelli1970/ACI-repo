@@ -17,7 +17,7 @@ jobs:
 
     - name: Install Apidog CLI
       run: npm install -g apidog-cli
-    
+
     - name: Test connectivity
       run: |
         ping -c 4 100.66.33.36
