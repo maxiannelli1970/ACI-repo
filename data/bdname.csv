@@ -1,0 +1,4 @@
+encap,tnname,apname,epgname,vrfname
+103,Corporate,Layer2,EPG00020,Corporate_Layer2
+107,Corporate,Layer2,EPG00021,Corporate_Layer2
+2653,Customer,Layer2,EPG00114,Customer_Layer2
