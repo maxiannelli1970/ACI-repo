@@ -1,0 +1,60 @@
+{
+    "imdata": [
+        {
+            "fvBD": {
+                "attributes": {
+                    "OptimizeWanBandwidth": "no",
+                    "annotation": "",
+                    "arpFlood": "yes",
+                    "descr": "",
+                    "dn": "uni/tn-{{tnname}}/BD-{{epgname}}",
+                    "epClear": "no",
+                    "epMoveDetectMode": "",
+                    "hostBasedRouting": "no",
+                    "intersiteBumTrafficAllow": "no",
+                    "intersiteL2Stretch": "no",
+                    "ipLearning": "yes",
+                    "ipv6McastAllow": "no",
+                    "limitIpLearnToSubnets": "yes",
+                    "llAddr": "::",
+                    "mac": "00:22:BD:F8:19:FF",
+                    "mcastARPDrop": "no",
+                    "mcastAllow": "no",
+                    "multiDstPktAct": "bd-flood",
+                    "name": "{{epgname}}",
+                    "nameAlias": "",  //alias
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "type": "regular",
+                    "unicastRoute": "no",
+                    "unkMacUcastAct": "flood",
+                    "unkMcastAct": "flood",
+                    "userdom": "all",
+                    "v6unkMcastAct": "flood",
+                    "vmac": "not-applicable",
+                    "status": "created"   //status to avoid OVERLAPPING,  "modified" aggiorna l'esistente
+                },
+                "children": [
+                      {
+                        "fvRsIgmpsn": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnIgmpSnoopPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "fvRsCtx": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnFvCtxName": "{{vrfname}}",  //vrf
+                                "userdom": "all"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
