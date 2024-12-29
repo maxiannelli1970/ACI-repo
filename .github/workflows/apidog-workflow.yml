@@ -21,7 +21,7 @@ jobs:
     - name: Test connectivity
       run: |
         ping -c 4 100.66.33.36
-        curl -I https://100.66.33.3
+        curl -I https://100.66.33.36
 
-    - name:**** Running Test Scenario ****
+    - name: Running Test Scenario
       run: apidog run --access-token ${{ secrets.APIDOG_ACCESS_TOKEN }} -t 856475 -e 1731029 -d 3517361 -r html,cli
