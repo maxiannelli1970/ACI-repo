@@ -32,7 +32,7 @@
                     "userdom": "all",
                     "v6unkMcastAct": "flood",
                     "vmac": "not-applicable",
-                    "status": "created"   //status to avoid OVERLAPPING,  "modified" aggiorna l'esistente
+                    "status": "created"   //status to avoid OVERLAPPING
                 },
                 "children": [
                       {
@@ -48,7 +48,7 @@
                         "fvRsCtx": {
                             "attributes": {
                                 "annotation": "",
-                                "tnFvCtxName": "{{vrfname}}",  //vrf
+                                "tnFvCtxName": "{{vrfname}}",  
                                 "userdom": "all"
                             }
                         }
